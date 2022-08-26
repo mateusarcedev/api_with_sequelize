@@ -20,6 +20,8 @@
   }
   static associate(models) {
     this.hasMany(models.Address, { foreignKey: 'user_id', as: 'address' });
+    this.belongsToMany(models.Course, { foreignKey: 'course_id', through: 'user_courses', as: 'courses' });
+
   }
  } 
 

@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\marce\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bcryptjs
+  C:\Program Files\nodejs\node.exe C:\Users\marce\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
 
 PATH: 
   C:\Users\marce\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\marce\bin;C:\Python310\Scripts;C:\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Windows\CCM;C:\Program Files\Git\cmd;C:\Program Files\Zabbix Agent;C:\php;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files (x86)\dotnet;C:\Users\marce\AppData\Local\Microsoft\WindowsApps;C:\Users\marce\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\marce\AppData\Local\Programs\Hyper\resources\bin;C:\Users\marce\AppData\Roaming\npm;C:\Users\marce\.dotnet\tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
@@ -30,7 +30,9 @@ npm manifest:
       "dev": "nodemon src/index.js"
     },
     "dependencies": {
+      "bcryptjs": "^2.4.3",
       "express": "^4.18.1",
+      "jsonwebtoken": "^8.5.1",
       "mysql2": "^2.3.3",
       "nodemon": "^2.0.19",
       "sequelize": "^6.21.4",
